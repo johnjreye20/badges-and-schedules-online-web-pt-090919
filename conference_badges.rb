@@ -14,4 +14,6 @@ end
 def assign_rooms(attendees)
   new_array = []
   attendees.each do |name|
-    new_array.push("Hello, #{name}! You'll be assigned to room #{attendees.find_index(name) + 1}!")
+  new_array.push("Hello, #{name}! You'll be assigned to room #{attendees.find_index(name) + 1}!")
+end
+new_array  
